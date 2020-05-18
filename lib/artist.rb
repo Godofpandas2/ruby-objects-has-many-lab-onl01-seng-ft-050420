@@ -18,6 +18,6 @@ class Artist
   end
 
   def song_count.all
-
+    Song.all.count
   end
 end
