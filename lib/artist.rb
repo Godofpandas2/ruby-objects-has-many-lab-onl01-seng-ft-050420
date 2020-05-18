@@ -15,8 +15,9 @@ class Artist
     Song.all.select {|song| song.artist == self}
   end
 
-  def song_by_name
-
+  def song_by_name(name)
+    song = Song.new(name)
+    self.add_song(song)
   end
 
   def self.song_count
