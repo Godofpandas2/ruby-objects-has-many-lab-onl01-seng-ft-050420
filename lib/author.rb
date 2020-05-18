@@ -12,4 +12,12 @@ class Author
   def add_posts
 
   end
+
+  def add_post_by_title
+    
+  end
+
+  def self.post_count
+    Post.all.count
+  end
 end
