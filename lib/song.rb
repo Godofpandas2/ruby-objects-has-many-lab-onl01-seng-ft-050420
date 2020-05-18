@@ -8,7 +8,11 @@ class Song
     @@all << self
   end
 
-  def self.all?
+  def self.all
     @@all
+  end
+
+  def artist_name
+
   end
 end
